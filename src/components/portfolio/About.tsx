@@ -6,8 +6,8 @@ export const About = ({ variant }: { variant?: "default" | "muted" }) => {
   const { t } = useLanguage();
 
   const stats = [
-    { value: "2+", label: t("about.stats.years") },
-    { value: "7+", label: t("about.stats.systems") },
+    { value: ".NET / C#", label: t("about.stats.years") },
+    { value: "React / APIs", label: t("about.stats.systems") },
     { value: "Advanced", label: t("about.stats.english") },
   ];
 

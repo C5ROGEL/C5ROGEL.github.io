@@ -8,6 +8,7 @@ import { Projects } from "@/components/portfolio/Projects";
 import { Experience } from "@/components/portfolio/Experience";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
+import { ScrollToTop } from "@/components/portfolio/ScrollToTop";
 
 const Index = () => (
   <ThemeProvider>
@@ -22,6 +23,7 @@ const Index = () => (
         <Contact variant="muted" />
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   </ThemeProvider>
 );

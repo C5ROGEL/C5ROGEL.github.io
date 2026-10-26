@@ -82,8 +82,8 @@ const translations = {
       paragraph1: "I'm a developer at the Ministerio de Obras Públicas y Transporte (MOPT) in El Salvador, building institutional software — web forms, electronic invoicing systems, backend APIs and PDF generation tools — using C#, .NET MVC, SQL Server, Alpine.js and React.",
       paragraph2: "I'm passionate about clean architecture, data integrity, and building tools that real organizations rely on every day.",
       stats: {
-        years: "Years building production systems",
-        systems: "Institutional systems shipped",
+        years: "Backend",
+        systems: "Full-Stack",
         english: "English proficiency",
       },
       sidebar: {
@@ -373,8 +373,8 @@ const translations = {
       paragraph1: "Soy desarrollador en el Ministerio de Obras Públicas y Transporte (MOPT) en El Salvador, construyendo software institucional — formularios web, sistemas de facturación electrónica, APIs backend y herramientas de generación de PDF — usando C#, .NET MVC, SQL Server, Alpine.js y React.",
       paragraph2: "Me apasiona la arquitectura limpia, la integridad de datos y construir herramientas en las que las organizaciones reales confían todos los días.",
       stats: {
-        years: "Años construyendo sistemas en producción",
-        systems: "Sistemas institucionales entregados",
+        years: "Backend",
+        systems: "Full-Stack",
         english: "Nivel de inglés",
       },
       sidebar: {
@@ -594,7 +594,7 @@ const translations = {
       title: "Un camino a través de la ingeniería y el soporte.",
       education: "05 / Educación",
       educationTitle: "Universidad Tecnológica de El Salvador (UTEC)",
-      educationSubtitle: "Licenciatura en Ingeniería de Sistemas Computacionales · 2021 – Presente · Graduación esperada 2027",
+      educationSubtitle: "Ingeniería de Sistemas Computacionales · 2021 – Presente · Graduación esperada 2027",
       jobs: [
         {
           company: "MOPT (Ministerio de Obras Públicas y Transporte)",
