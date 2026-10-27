@@ -82,8 +82,8 @@ const translations = {
       paragraph1: "I'm a developer at the Ministerio de Obras Públicas y Transporte (MOPT) in El Salvador, building institutional software — web forms, electronic invoicing systems, backend APIs and PDF generation tools — using C#, .NET MVC, SQL Server, Alpine.js and React.",
       paragraph2: "I'm passionate about clean architecture, data integrity, and building tools that real organizations rely on every day.",
       stats: {
-        years: "Backend",
-        systems: "Full-Stack",
+        backend: "Backend",
+        fullstack: "Full-Stack",
         english: "English proficiency",
       },
       sidebar: {
@@ -347,6 +347,9 @@ const translations = {
       success: "Message sent! I'll get back to you soon.",
       error: "Something went wrong. Please try again.",
       formTitle: "Send a Message",
+      logUplink: "Uplink active — Transmitting data",
+      logSuccess: "Transmission confirmed — 200 OK",
+      logStandby: "Ready for transmission — Link standby",
     },
   },
   es: {
@@ -373,8 +376,8 @@ const translations = {
       paragraph1: "Soy desarrollador en el Ministerio de Obras Públicas y Transporte (MOPT) en El Salvador, construyendo software institucional — formularios web, sistemas de facturación electrónica, APIs backend y herramientas de generación de PDF — usando C#, .NET MVC, SQL Server, Alpine.js y React.",
       paragraph2: "Me apasiona la arquitectura limpia, la integridad de datos y construir herramientas en las que las organizaciones reales confían todos los días.",
       stats: {
-        years: "Backend",
-        systems: "Full-Stack",
+        backend: "Backend",
+        fullstack: "Full-Stack",
         english: "Nivel de inglés",
       },
       sidebar: {
@@ -638,6 +641,9 @@ const translations = {
       success: "¡Mensaje enviado! Te responderé pronto.",
       error: "Algo salió mal. Por favor intenta de nuevo.",
       formTitle: "Enviar un Mensaje",
+      logUplink: "Enlace activo — Transmitiendo datos",
+      logSuccess: "Transmisión confirmada — 200 OK",
+      logStandby: "Listo para transmitir — Enlace en espera",
     },
   },
 };

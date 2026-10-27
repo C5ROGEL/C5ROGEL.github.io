@@ -41,7 +41,7 @@ export const Contact = ({ variant }: { variant?: "default" | "muted" }) => {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: "ccb69d0d-f7fa-4499-804b-505e342d91b3", // User provided key
+          access_key: import.meta.env.VITE_WEB3FORMS_KEY,
           ...data,
           from_name: data.name,
           subject: `Portfolio Contact: ${data.subject}`,
@@ -220,7 +220,7 @@ export const Contact = ({ variant }: { variant?: "default" | "muted" }) => {
                        <div className={`h-1 w-1 rounded-full ${isSubmitting ? 'bg-amber-500 animate-pulse delay-150' : isSuccess ? 'bg-emerald-500' : 'bg-primary/40'}`} />
                     </div>
                     <span className="text-[9px] font-mono text-muted-foreground/60 uppercase tracking-[0.2em]">
-                       {isSubmitting ? "Uplink active — Transmitting data" : isSuccess ? "Transmission confirmed — 200 OK" : "Ready for transmission — Link standby"}
+                       {isSubmitting ? t("contact.logUplink") : isSuccess ? t("contact.logSuccess") : t("contact.logStandby")}
                     </span>
                   </div>
                 </form>

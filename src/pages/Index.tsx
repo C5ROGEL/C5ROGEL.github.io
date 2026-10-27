@@ -1,5 +1,4 @@
 import { ThemeProvider } from "@/components/portfolio/ThemeProvider";
-// Re-triggering type inference for portfolio components
 import { Navbar } from "@/components/portfolio/Navbar";
 import { Hero } from "@/components/portfolio/Hero";
 import { About } from "@/components/portfolio/About";

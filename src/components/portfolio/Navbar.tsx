@@ -86,11 +86,11 @@ export const Navbar = () => {
         <div className="flex items-center gap-2">
           <button
             onClick={() => setLanguage(language === "en" ? "es" : "en")}
-            aria-label={language === "en" ? "Cambiar a español" : "Switch to English"}
+            aria-label={language === "en" ? "Switch to Spanish" : "Cambiar a inglés"}
             className="h-9 w-9 inline-flex items-center justify-center rounded-md border border-hairline text-muted-foreground hover:text-foreground hover:border-primary/40 transition-colors"
-            title={language === "en" ? "ES" : "EN"}
+            title={language === "en" ? "EN" : "ES"}
           >
-            <span className="font-mono text-xs font-bold">{language === "en" ? "ES" : "EN"}</span>
+            <span className="font-mono text-xs font-bold">{language === "en" ? "EN" : "ES"}</span>
           </button>
           <button
             onClick={toggle}
